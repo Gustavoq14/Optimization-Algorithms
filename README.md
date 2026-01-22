@@ -2,7 +2,7 @@
 
 ## Repository Overview
 
-This repository contains the implementation and benchmarking of several optimization algorithms applied to nonlinear least squares data fitting problems. It includes both classical methods and a recently developed variant called the Self-Cooling Simulated Annealing (SCSA) algorithm, which has been published in a recent article.  
+This repository contains the implementation and benchmarking of several optimization algorithms applied to nonlinear least squares data fitting problems. It includes both classical methods and a recently developed variant called the [Self-Cooling Simulated Annealing (SCSA) algorithm](), which has been published in a recent article.  
 Part of the Supporting Information from that publication is generated in one of the notebooks included here.
 
 ## Repository Structure
