@@ -9,7 +9,7 @@ Part of the Supporting Information from that publication is generated in one of 
 
 ### Benchmarking_Self_cooling_Simulated_Annealing.ipynb
 This notebook reproduces the benchmarking experiments presented in the publication [“Self-Cooling Simulated Annealing Algorithm for Nonlinear Least Squares Data Analysis.”](https://ri.conicet.gov.ar/handle/11336/278863)  
-It provides detailed results, comparisons, and figures used as Supporting Information for the article.
+It provides detailed results, comparisons, and figures used as [Supporting Information](https://nessie.ilab.sztaki.hu/~kornai/2020/AdvancedMachineLearning/Hertz_Krogh_Palmer__IntroToNeuralComp.pdf) for the article.
 
 ### Classic_optimization_algorithms.ipynb
 Demonstrates the behavior and performance of the optimization methods used in the benchmarking process, including Gradient Descent, Newton–Raphson, Levenberg–Marquardt, Monte Carlo Acceptance–Rejection, and Simulated Annealing.  
