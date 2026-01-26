@@ -1,20 +1,35 @@
-# Optimization-Algorithms
+# Self-Cooling Simulated Annealing (SCSA) & Optimization Benchmarking
 
-## Repository Overview
+This repository provides the official implementation and benchmarking of the **Self-Cooling Simulated Annealing (SCSA)** algorithm, specifically designed for solving **Nonlinear Least Squares** data fitting problems.
 
-This repository contains the implementation and benchmarking of several optimization algorithms applied to nonlinear least squares data fitting problems. It includes both classical methods and a recently developed variant called the [Self-Cooling Simulated Annealing (SCSA) algorithm](), which has been published in a recent article.  
-Part of the Supporting Information from that publication is generated in one of the notebooks included here.
+[![Paper](https://img.shields.io/badge/Article-CONICET-blue)](https://ri.conicet.gov.ar/handle/11336/278863)
+[![Supporting Info](https://img.shields.io/badge/Supporting-Information-green)](https://www.researchgate.net/publication/399911249_Supporting_Information_Self-cooling_Simulated_Annealing_SCSA_algorithm_for_nonlinear_least_square's_data_analysis)
+
+---
+
+## Project Overview
+
+The core of this project is to evaluate the robustness and efficiency of the newly developed **SCSA** algorithm compared to traditional optimization methods. SCSA introduces a dynamic cooling variant that enhances global minima detection in complex parameter-fitting landscapes.
+
+### Implemented Algorithms:
+* **Proposed:** Self-Cooling Simulated Annealing (SCSA).
+* **Classical:** Gradient Descent, Newton–Raphson, and Levenberg–Marquardt.
+* **Stochastic:** Monte Carlo (Acceptance–Rejection) and standard Simulated Annealing.
+
+---
 
 ## Repository Structure
 
-### Benchmarking_Self_cooling_Simulated_Annealing.ipynb
-This notebook reproduces the benchmarking experiments presented in the publication [“Self-Cooling Simulated Annealing Algorithm for Nonlinear Least Squares Data Analysis.”](https://ri.conicet.gov.ar/handle/11336/278863)  
-It provides detailed results, comparisons, and figures used as [Supporting Information](https://www.researchgate.net/publication/399911249_Supporting_Information_Self-cooling_Simulated_Annealing_SCSA_algorithm_for_nonlinear_least_square's_data_analysis) for the article.
+| Notebook | Purpose | Key Content |
+| :--- | :--- | :--- |
+| **[Benchmarking_SCSA.ipynb](./Benchmarking_Self_cooling_Simulated_Annealing.ipynb)** | **Publication Reproducibility** | Reproduces the experiments, comparisons, and figures used as *Supporting Information* for the article. |
+| **[Classic_Algorithms.ipynb](./Classic_optimization_algorithms.ipynb)** | **Theory & Visualization** | Demonstrates convergence and local minima detection on 2D test functions (no data fitting). |
+| **[DataFitting_Methods.ipynb](./Benchmarking_DataFitting_Methods.ipynb)** | **Practical Application** | Evaluates SCSA against classical approaches using synthetic datasets and analytical fitting functions. |
 
-### Classic_optimization_algorithms.ipynb
-Demonstrates the behavior and performance of the optimization methods used in the benchmarking process, including Gradient Descent, Newton–Raphson, Levenberg–Marquardt, Monte Carlo Acceptance–Rejection, and Simulated Annealing.  
-These methods are applied to standard two-dimensional test functions to visualize convergence and local minima detection, without data fitting.
+---
 
-### Benchmarking_DataFitting_Methods.ipynb
-Applies the above methods — including the new SCSA algorithm — to synthetic datasets and a simple analytical function, highlighting the advantages and robustness of SCSA for nonlinear data fitting compared to classical approaches.
+## 📖 Citation
+If you use this code or the SCSA algorithm in your research, please cite the original publication:
+
+> **"Self-Cooling Simulated Annealing Algorithm for Nonlinear Least Squares Data Analysis."** > *Available at:* [CONICET Digital](https://ri.conicet.gov.ar/handle/11336/278863)
 
