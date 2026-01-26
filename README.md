@@ -24,12 +24,5 @@ The core of this project is to evaluate the robustness and efficiency of the new
 | :--- | :--- | :--- |
 | **[Benchmarking_SCSA.ipynb](./Benchmarking_Self_cooling_Simulated_Annealing.ipynb)** | **Publication Reproducibility** | Reproduces the experiments, comparisons, and figures used as *Supporting Information* for the article. |
 | **[Classic_Algorithms.ipynb](./Classic_optimization_algorithms.ipynb)** | **Theory & Visualization** | Demonstrates convergence and local minima detection on 2D test functions (no data fitting). |
-| **[DataFitting_Methods.ipynb](./Benchmarking_DataFitting_Methods.ipynb)** | **Practical Application** | Evaluates SCSA against classical approaches using synthetic datasets and analytical fitting functions. |
-
----
-
-## 📖 Citation
-If you use this code or the SCSA algorithm in your research, please cite the original publication:
-
-> **"Self-Cooling Simulated Annealing Algorithm for Nonlinear Least Squares Data Analysis."** > *Available at:* [CONICET Digital](https://ri.conicet.gov.ar/handle/11336/278863)
+| **[DataFitting_Methods.ipynb](./Benchmarking_DataFitting_Methods.ipynb)** | **Practical Application** | Evaluates SCSA against classical approaches using synthetic datasets and analytical fitting functions.
 
